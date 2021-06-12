@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*==============================
+        START TOP SECTION
+================================*/
+section{
+    height: 500px;
+    padding-bottom: 120px;
+}
+
+#top-banner{
+    background-image: url(../img/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+h1{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 17px;
+}
+
+p{
+    font-size: 14px;
+    color: gray;
+}
+
+.orange-highlight{
+    color: orange;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 2%;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.link-button{
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.link-button a{
+    text-decoration: none;
+    font-size: 700;
+    color: white;
+}
+
+.link-button:hover{
+    background-image: linear-gradient(45deg,tomato, lightsalmon);;
+}
+
+/*============================
+        END TOP SECTION
+=============================*/
+
+
+/*==============================
+      START MID BANNER
+===============================*/
+.mid-banner{
+    background-image: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h2{
+    font-size: 40px;
+}
+
+/*==============================
+      END MID BANNER
+===============================*/
+
+
+
+/*==============================
+      START EXPERIENCES
+===============================*/
+
+.experience-area{
+    background-image: url("../img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+
+footer p{
+    font-size: 12px;
+    text-align: center;
+    padding: 1%;
+}
